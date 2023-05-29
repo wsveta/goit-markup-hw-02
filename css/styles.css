@@ -2,18 +2,15 @@
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
     --dark: #2E2F42;
-    --success: #31D0AA;
     --text: #434455;
     --subtle-text: #8E8F99;
     --accent: #E7E9FC;
     --light: #F4F4FD;
-    --white-background: #FFFFFF;
-    --modal-background: #FCFCFC;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--dark);
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -35,16 +32,19 @@ body {
 .logo-first-part {      
     font-family: 'Raleway', sans-serif;
     color: var(--primary-brand);
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-second-part {
     font-family: 'Raleway', sans-serif;
+    color: var(--dark);
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -52,8 +52,9 @@ body {
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     color: var(--light);
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -124,7 +125,7 @@ body {
 .main-subtitle{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -142,8 +143,16 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.members-block {
-    background-color: var(--light-background-color);
+.team-block {
+    background-color: var(--light);
+}
+
+.member-card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .member {
@@ -202,6 +211,7 @@ body {
 }
 
 .project-name {
+    color: var(--dark);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
