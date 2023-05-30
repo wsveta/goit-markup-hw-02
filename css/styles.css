@@ -236,7 +236,7 @@ body {
 .footer-text {
     color: var(--light);
     font-size: 16px;
-    font-weight: 1.5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
