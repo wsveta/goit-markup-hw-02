@@ -170,7 +170,6 @@ body {
 
 .visually-hidden {
     white-space: nowrap;
-    height: 1px;
     overflow: hidden;
     border: 0;
     clip: rect(0 0 0 0);
